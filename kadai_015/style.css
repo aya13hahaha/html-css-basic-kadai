@@ -1,5 +1,6 @@
-.body{
+body{
    font-family:"Arial", "Meiryo", sans-serif;
+   text-align: center;
 }
 
 :root{
@@ -14,21 +15,17 @@
   color:rgb(255, 192, 203) ;
 }
 
-
-.google-fonts {
+h1{
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <400>;
   font-style: normal;
-}
-
-h1{
   font-size: 2rem;
   font-family: sans-serif;
   letter-spacing: 1.2em;
   text-shadow: 1px 1px 2px gray;
-  text-decoration: underline;
-  border-bottom: 3px solid rgd(115,115,114);
+  text-decoration: border-bottom;
+  border-bottom: 3px solid rgb(115,115,114);
 }
 
 html{
