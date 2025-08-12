@@ -1,0 +1,42 @@
+/* pc、スマホ共通スタイル*/
+*{
+  box-sizing: :border-box;
+}
+
+p{
+  font-size: 15px;
+}
+
+body{
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN"; Meiryo, Arial,sans serif; 
+  max-width: 1080px;
+  margin: 0 auto 0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-pc {
+  font-size: 14px;
+}
+
+#nav-pc ul {
+  display: flex;
+  padding-left: 0;
+}
+
+#nav-pc li {
+  list-style: none;
+}
+
+#nav-pc a {
+  text-decoration: none;
+  margin-left: 20px;
+  color #0d0d0d;
+}
+
+#nav-pc a:hover {
+  text-decoration: underline;
+}
