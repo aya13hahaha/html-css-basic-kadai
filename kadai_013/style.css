@@ -15,7 +15,7 @@ p {
 /*================
 PC用のスタイル 
 =================*/
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   /* 横幅設定 */
   body {
     max-width: 1080px;
@@ -143,12 +143,9 @@ SP用のスタイル
     background-repeat: no-repeat;
     background-position: right top;
   }
-}
 
-#menu-sp {
+#menu-sp, #nav-sp {
   display: none;
 }
 
-#nav-sp {
-  display: none;
 }
