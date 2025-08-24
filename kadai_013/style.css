@@ -120,7 +120,7 @@ SP用のスタイル
   display: block;
 }
 
-#nav-sp a:hover {
+#nav-sp a:link {
   color: #ffffff;
 }
 
@@ -147,6 +147,5 @@ SP用のスタイル
   background-repeat: no-repeat;
   background-position: right top;
 }
-
 
 }
