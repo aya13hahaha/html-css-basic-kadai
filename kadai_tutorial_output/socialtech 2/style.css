@@ -1,16 +1,16 @@
-/* pc、スマホ共通スタイル */
+/* PC、スマホ共通スタイル */
 * {
-  box-sizing: :border-box;
+  box-sizing: border-box;
 }
 
 p {
   font-size: 15px;
 }
 
-body{
-  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN"; Meiryo, Arial,sans serif; 
+body {
   max-width: 1080px;
   margin: 0 auto 0 auto;
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN"; Meiryo, Arial,sans-serif; 
 }
 
 header{
@@ -35,7 +35,7 @@ header{
 #nav-pc a {
   text-decoration: none;
   margin-left: 20px;
-  color #0d0d0d;
+  color:#0d0d0d;
 }
 
 #nav-pc a:hover {
@@ -67,7 +67,7 @@ header{
   z-index: 11;
 }
 
-#main-message > h1 {
+#main-message h1 {
   font-size: 60px;
   margin: 100px 0 0 50px;
 }
@@ -180,7 +180,7 @@ h3 {
   color: #2710d5;
   font-weight: bold;
   font-size: 16px;
-  margin: 0;
+  margin: 0px;
 }
 
 /*　説明文の見出し　*/
@@ -688,7 +688,6 @@ footer{
   display: none;
   z-index: 100;
 }
-}
 
 /* ×ボタン */
 #close {
@@ -951,7 +950,7 @@ footer {
 #footer-link > a {
   margin: 0 20px 30px 0;
   display: block;
-  background-image: url(images/arrow.png);
+  background-image: url("images/arrow.png");
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -1112,7 +1111,5 @@ footer {
     order: 2;
     width: 100%;
   }
-
-
-
+}
 
