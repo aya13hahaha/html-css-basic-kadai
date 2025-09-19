@@ -14,7 +14,7 @@
        ];
 
        foreach ($vegetable as $key => $value) {
-           echo "{$key}: {$value}. <br>";  // 連想配列の内容を表示
+           echo "{$key}:{$value} <br>";  // 連想配列の内容を表示
        }
        ?>
    </p>
