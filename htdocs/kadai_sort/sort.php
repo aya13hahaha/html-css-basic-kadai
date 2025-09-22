@@ -19,19 +19,19 @@
           if ($order) {
              echo "昇順にソートします。<br>";
              sort($nums);
-          } else {
+             foreach ($nums as $num) {
+                 echo $num . '<br>';
+             }
+         } else {
              echo "降順にソートします。<br>";
              rsort($nums);
+             foreach ($nums as $num) {
+             echo $num . '<br>';
+             }
           }
-
-          // 配列の要素を逆順に表示
-          $count = count($nums);
-          for ($i = $count - 1; $i >= 0; $i--) {
-             echo $nums[$i] . '<br>';
-        }
         }
 
-        sort_2way($arrays, $order);
+         sort_2way($arrays, $order);
         ?>
     </p>
 </body>
